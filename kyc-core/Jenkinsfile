@@ -1,3 +1,3 @@
-@Library('kyc-shared-library') _
+@Library('kyc-shared-library@master') _
 
 deployJavaLib(project: "kyc-core", credentials: '5d366d73-5155-454f-b870-5de388d97287',tool: 'maven');
